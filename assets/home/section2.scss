@@ -1,0 +1,314 @@
+
+:root {
+  --color-main: #252525;
+  --woocommerce: #a46497;
+  --color-green: #0DA122;
+  --color-darkgreen: #3C8F69;
+  --color-red: #a00;
+  --color-orange: #ffba00;
+  --color-blue: #3D55FF;
+  --color-light-blue: #F2F3FE;
+  --color-primary: #a46497;
+  --color-primary-text: white;
+  --color-secondary: #ebe9eb;
+  --color-secondary-text: #515151;
+  --color-highlight: #3c8f69;
+  --color-highligh-text: white;
+  --color-content-bg: #fff;
+  --color-subtext: #a8a5a5;
+  --color-footerbg: #FAFAFA;
+}
+
+::selection {
+  background-color: #3c8f69;
+  color: white;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--color-main);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+
+}
+
+/*------------------ Section Part2 ------------------*/
+
+.part2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__container {
+    padding: 62px 33px 45px 33px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+
+
+    &-badge span {
+      background-color: var(--color-light-blue);
+      color: var(--color-blue);
+      font-size: 1.3rem;
+      font-weight: 500;
+      line-height: 1.9rem;
+      letter-spacing: 2px;
+      padding: 4px 20px 4px 12px;
+      border-radius: 15px;
+    }
+
+    &-title h1 {
+      width: 99%;
+      font-size: 2.1rem;
+      font-weight: 700;
+      line-height: 2.7rem;
+      margin: 20px 0;
+      padding: 9px 0;
+    }
+
+    &-sections {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+
+      .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        img {
+          margin-top: 25px;
+          margin-bottom: 10px;
+        }
+        &-list{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 15px;
+
+          .iconify{
+            width: 10%;
+            font-size: 3rem;
+            color: var(--color-green);
+            position: relative;
+            top: 5px;
+            right: 5px;
+            margin-right: 5px;
+          }
+
+
+          p {
+            width: 90%;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.9rem;
+            margin-top: 10px;
+            text-align: left;
+            position: relative;
+
+          }
+
+
+        }
+
+
+
+      }
+
+      .section2 {
+        background-color: var(--color-darkgreen);
+        width: 100%;
+        height: 184px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+        padding: 0;
+        border-radius: 10px;
+
+        h1 {
+          font-size: 1.6rem;
+          font-weight: 500;
+          line-height: 2.3rem;
+          color: var(--color-highligh-text);
+        }
+
+        .btn {
+          padding: 18px 36px;
+          margin-right: 4px;
+          font-size: 1.6rem;
+          font-weight: 700;
+          line-height: 1.6rem;
+          border: 2px solid var(--color-main);
+        }
+      }
+
+    }
+  }
+  .bottom-img{
+    width: 100vh;
+  }
+
+
+}
+.part3{
+  width: 100%;
+  height: auto;
+  &__container{
+    padding: 62px 33px 120px 33px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    border-bottom: 1px solid var(--color-subtext);
+    .heading{
+      h2{
+        text-align: center;
+        line-height: 2.7rem;
+        margin-top: 28px;
+      }
+    }
+    .slider-container{
+
+      .slide2{
+        display: none;
+        position: absolute;
+      }
+      .slide3{
+        display: none;
+        position: absolute;
+      }
+      .slides{
+        .slide-pic{
+          width: 100%;
+          margin-top: 50px;
+        }
+        .slide-describe{
+          margin-left: 33px;
+          img{
+            margin-top: 25px;
+          }
+          h2{
+            margin-top: 23px;
+          }
+          p{
+            width: 90%;
+            color: var(--color-secondary-text);
+            font-size: 1.3rem;
+            line-height: 1.9rem;
+            font-weight: 400;
+            margin-top: 27px;
+          }
+        }
+      }
+      .btn{
+        border: 3px solid #252525;
+        background-color: var(--color-highligh-text);
+        color: #252525;
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 19px 35px;
+        margin-top: 33px;
+        margin-left: 0;
+      }
+
+    }
+
+  }
+}
+.part4{
+  width: 100%;
+  .part4__container{
+    padding: 62px 33px 45px 33px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: center;
+    .heading{
+      h2{
+        margin-top: 28px;
+        font-weight: 700;
+        font-size: 2.1rem;
+        line-height: 2.7rem;
+      }
+    }
+    .about-team{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      gap: 20px;
+      .person-row1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .person1,
+        .person2{
+          img{
+            width: 82%;
+          }
+          h4{
+            margin-top: 22px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 1.9rem;
+          }
+          h5{
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.9rem;
+            color: var(--color-subtext);
+            margin-top: 5px;
+          }
+          p{
+            width: 100%;
+            margin-top: 20px;
+          }
+          .person2{
+            width: 100%;
+          }
+        }
+      }
+      .button .btn{
+        padding: 18px 35px;
+        border: 3px solid var(--color-main);
+        background-color: var(--color-highligh-text);
+        color: var(--color-main);
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 1.6rem;
+        margin-left: 0;
+      }
+
+    }
+  }
+}
+
+

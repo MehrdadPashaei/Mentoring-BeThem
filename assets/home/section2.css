@@ -1,0 +1,283 @@
+:root {
+  --color-main: #252525;
+  --woocommerce: #a46497;
+  --color-green: #0DA122;
+  --color-darkgreen: #3C8F69;
+  --color-red: #a00;
+  --color-orange: #ffba00;
+  --color-blue: #3D55FF;
+  --color-light-blue: #F2F3FE;
+  --color-primary: #a46497;
+  --color-primary-text: white;
+  --color-secondary: #ebe9eb;
+  --color-secondary-text: #515151;
+  --color-highlight: #3c8f69;
+  --color-highligh-text: white;
+  --color-content-bg: #fff;
+  --color-subtext: #a8a5a5;
+  --color-footerbg: #FAFAFA;
+}
+
+::selection {
+  background-color: #3c8f69;
+  color: white;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--color-main);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/*------------------ Section Part2 ------------------*/
+.part2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.part2__container {
+  padding: 62px 33px 45px 33px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+}
+.part2__container-badge span {
+  background-color: var(--color-light-blue);
+  color: var(--color-blue);
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  letter-spacing: 2px;
+  padding: 4px 20px 4px 12px;
+  border-radius: 15px;
+}
+.part2__container-title h1 {
+  width: 99%;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+  margin: 20px 0;
+  padding: 9px 0;
+}
+.part2__container-sections {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.part2__container-sections .section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.part2__container-sections .section1 img {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.part2__container-sections .section1-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.part2__container-sections .section1-list .iconify {
+  width: 10%;
+  font-size: 3rem;
+  color: var(--color-green);
+  position: relative;
+  top: 5px;
+  right: 5px;
+  margin-right: 5px;
+}
+.part2__container-sections .section1-list p {
+  width: 90%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  margin-top: 10px;
+  text-align: left;
+  position: relative;
+}
+.part2__container-sections .section2 {
+  background-color: var(--color-darkgreen);
+  width: 100%;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  padding: 0;
+  border-radius: 10px;
+}
+.part2__container-sections .section2 h1 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+  color: var(--color-highligh-text);
+}
+.part2__container-sections .section2 .btn {
+  padding: 18px 36px;
+  margin-right: 4px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  border: 2px solid var(--color-main);
+}
+.part2 .bottom-img {
+  width: 100vh;
+}
+
+.part3 {
+  width: 100%;
+  height: auto;
+}
+.part3__container {
+  padding: 62px 33px 120px 33px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  text-align: start;
+  border-bottom: 1px solid var(--color-subtext);
+}
+.part3__container .heading h2 {
+  text-align: center;
+  line-height: 2.7rem;
+  margin-top: 28px;
+}
+.part3__container .slider-container .slide2 {
+  display: none;
+  position: absolute;
+}
+.part3__container .slider-container .slide3 {
+  display: none;
+  position: absolute;
+}
+.part3__container .slider-container .slides .slide-pic {
+  width: 100%;
+  margin-top: 50px;
+}
+.part3__container .slider-container .slides .slide-describe {
+  margin-left: 33px;
+}
+.part3__container .slider-container .slides .slide-describe img {
+  margin-top: 25px;
+}
+.part3__container .slider-container .slides .slide-describe h2 {
+  margin-top: 23px;
+}
+.part3__container .slider-container .slides .slide-describe p {
+  width: 90%;
+  color: var(--color-secondary-text);
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  font-weight: 400;
+  margin-top: 27px;
+}
+.part3__container .slider-container .btn {
+  border: 3px solid #252525;
+  background-color: var(--color-highligh-text);
+  color: #252525;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 19px 35px;
+  margin-top: 33px;
+  margin-left: 0;
+}
+
+.part4 {
+  width: 100%;
+}
+.part4 .part4__container {
+  padding: 62px 33px 45px 33px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  text-align: center;
+}
+.part4 .part4__container .heading h2 {
+  margin-top: 28px;
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 2.7rem;
+}
+.part4 .part4__container .about-team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.part4 .part4__container .about-team .person-row1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.part4 .part4__container .about-team .person-row1 .person1 img,
+.part4 .part4__container .about-team .person-row1 .person2 img {
+  width: 82%;
+}
+.part4 .part4__container .about-team .person-row1 .person1 h4,
+.part4 .part4__container .about-team .person-row1 .person2 h4 {
+  margin-top: 22px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+}
+.part4 .part4__container .about-team .person-row1 .person1 h5,
+.part4 .part4__container .about-team .person-row1 .person2 h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  color: var(--color-subtext);
+  margin-top: 5px;
+}
+.part4 .part4__container .about-team .person-row1 .person1 p,
+.part4 .part4__container .about-team .person-row1 .person2 p {
+  width: 100%;
+  margin-top: 20px;
+}
+.part4 .part4__container .about-team .person-row1 .person1 .person2,
+.part4 .part4__container .about-team .person-row1 .person2 .person2 {
+  width: 100%;
+}
+.part4 .part4__container .about-team .button .btn {
+  padding: 18px 35px;
+  border: 3px solid var(--color-main);
+  background-color: var(--color-highligh-text);
+  color: var(--color-main);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=section2.css.map */

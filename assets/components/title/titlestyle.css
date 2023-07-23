@@ -1,0 +1,26 @@
+.highlight-underline{
+    position: relative;
+    padding: 0;
+    border-radius: unset;
+    background-color: unset;
+    background-image: unset;
+}
+
+.highlight-word{
+    position: relative;
+    z-index: 1;
+}
+
+
+.highlight-border{
+content: "";
+position: absolute;
+left: 0;
+bottom: 20%;
+width: calc(100% + 0.3em);
+height: 15%;
+margin-left: -0.15em;
+transform: skew(-12deg) translateX(0);
+background: #0089F7;
+z-index: -1;
+}

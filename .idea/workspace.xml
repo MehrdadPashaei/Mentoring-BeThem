@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56e5cbdc-8903-4d98-8811-5b8ed26287cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/contact/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/contact/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/contact/javascript/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/contact/scss/contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/product/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/product/javascript/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/product/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/product/scss/product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mentoring-Project-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/about/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/about/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/Installed apps/apps.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Installed apps/apps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/blue button/badge.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/blue button/badge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/blue button/badge.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/blue button/badge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/footer/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/footer/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/header/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/header/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/header/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/header/javascript/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/header/javascript/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/title/titlestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/title/titlestyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/home/javascript/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/home/javascript/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/home/javascript/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/home/javascript/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/home/section2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/home/section2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/home/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/home/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pricing/css/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pricing/css/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pricing/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pricing/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/slider/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slider/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/slider/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/slider/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2SxrfTZBGshHskeTp2yJ62fzeBs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56e5cbdc-8903-4d98-8811-5b8ed26287cb" name="Changes" comment="" />
+      <created>1690099178997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690099178997</updated>
+      <workItem from="1690099183164" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+
+.div-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h6 {
+    color: #3d38ff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    padding: 2px 12px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+button {
+    border: none;
+    margin-bottom: 25px;
+    background-color: #f2f3fe;
+    padding: 4px 20px 4px 12px;
+    border-radius: 13px;
+}

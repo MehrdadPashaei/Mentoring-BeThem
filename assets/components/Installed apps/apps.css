@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+
+.parent-columnspart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.column2-part1 {
+    margin: 0 25px;
+}
+
+.column2-part2 {
+    margin: 0 25px;
+}
+
+.parent-numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bold-number {
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #252525;
+    font-weight: 600;
+}
+
