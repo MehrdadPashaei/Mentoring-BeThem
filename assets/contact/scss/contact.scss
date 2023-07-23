@@ -72,13 +72,12 @@ body{
                         content: "";
                         position: absolute;
                         left: 0;
+                        background-color:white;
                         bottom: 20%;
-                        width: calc(100% + 0.3em);
+                        width: calc(100%);
                         height: 15%;
                         margin-left: -0.15em;
                         transform: skew(-12deg) translateX(0);
-                        background: #0089F7;
-                        background-color: rgb(0, 137, 247);
                         z-index: -1;
                         }
                     @media screen and (min-width: 480px) {
@@ -123,7 +122,7 @@ body{
             }
             .signup-form  {
                 flex:1;
-                max-width:100%;
+                max-width:95%;
                 background-color: $contact-backgound-color;
                 margin:28px ;
                 margin-bottom: 200px;
@@ -269,6 +268,7 @@ body{
             .secondSection__text{
                text-align: center;
                margin-bottom: 100px;
+              
             }
             
             .secondSection__div{
@@ -348,6 +348,7 @@ body{
                 .secondSection__text{
                     text-align: left;
                     width: 40%;
+                    padding-top:50px ;
                     .secondSection__div{
                         width: 229.19px;
                     }
@@ -396,6 +397,7 @@ body{
                 border: none;
                 width: 99%;
                 height: 0.5px;
+                position:relative;
                 background-color: whitesmoke;
                 @media screen and (min-width: 1240px){
                     background-color: $contact-backgound-color;
@@ -411,13 +413,11 @@ body{
             }
             
             .thiredSection{
-                padding-top: 80px;
+                padding: 80px 0;
                 display: flex;
                 justify-items: center;
                 align-items: center;
                 flex-direction: column;
-                padding-bottom: 80px;
-                
                     .thiredSection__add{
                         display: flex;
                         flex-direction: column; 
@@ -462,6 +462,7 @@ body{
                         @media screen and (min-width: 768px){
                             align-items: flex-start;
                             width: 470px;
+                            padding-top: 70px;
                         }
                        
                     }
@@ -515,17 +516,32 @@ body{
                        line-height: 19px;
                        font-weight: 500;
                        letter-spacing: 2px;
-                       padding: 6px;
-                       padding-left: 15px;
-                       padding-right: 15px;
-                       
+                       padding: 6px 15px;
+                       @media screen and (min-width: 768px){
+                        line-height: 26px;
+                       }
+                       @media screen and (min-width: 960px){
+                        font-size: 15px;
+                        line-height: 30px;
+                        letter-spacing: 3px;
+                       }
                     }
                 
                     @media screen and (min-width: 768px){
                         flex-direction: row;
-                        justify-content: center;
+                        justify-content: flex-start;
+                        padding-left: 10%;
                         gap: 0;
                     }
+                    @media screen and (min-width: 960px){
+                        padding-left: 2%;
+                    }
+                    
+                    @media screen and (min-width: 1240px){
+                        gap:80px;
+                        padding-left: 10%;
+                    }
+                    
             }
         
     }
