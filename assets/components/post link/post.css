@@ -7,11 +7,11 @@
     font-size: 13px;
     font-weight: 400;
     line-height: 19px;
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 .iconify{
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
 .author-link{
@@ -24,7 +24,7 @@
 }
 
 .section4-column3{
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 
 .post-title{
@@ -32,8 +32,7 @@
     font-size: 13px;
     font-weight: 600;
     line-height: 19px;
-    margin: 0px 5px;
-    margin-bottom: 1px;;
+    margin: 0 5px 1px 5px;
 }
 
 .parent-section4-parts{
@@ -53,10 +52,7 @@
 
 .img-section1{
 width: 100%;
-margin-top: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-margin-left: 0px;
+margin: 0;
 border-radius: 22px 22px 22px 22px;
 overflow: hidden;
 border-style: solid;
@@ -71,20 +67,14 @@ border-color: #232323;
  
  .img-section2{
  width: 100%;
- margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px;
+ margin: 0;
  overflow: hidden;
  }
 
 
  .img-section4{
     width: 100%;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 0;
     overflow: hidden;
     
  }
@@ -95,10 +85,10 @@ border-color: #232323;
  }
 
  .section4-column3{
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 
 .parent-section4-parts{
-    padding: 0px 33px;
+    padding: 0 33px;
     width: 60%;
 }
