@@ -201,17 +201,22 @@ body{
             textarea{
                 height: 144px;
             }
-            
-            .email::after,
-            .surname::after,
-            .name::after{
-                content: "❌";
-                background-color: red;
-                width: fit-content;
+            .name,.surname , .email{
                 position: relative;
-                left:-20px; top:-35px;
-                display: none;
             }
+            
+            
+             .email-error,
+            .surname-error,
+             .name-error{
+              width: fit-content;
+              left: -40px;
+              position: absolute; 
+              visibility: hidden;
+            }
+           
+            .iniputi{
+                position:absolute;}
             .form-body {
                 background:$contact-backgound-color;
                 padding:5px 10px;
