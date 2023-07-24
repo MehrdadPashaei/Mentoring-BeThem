@@ -11,7 +11,59 @@
 </head>
 <body>
 <div class="page">
-
+    <header class="header" id="header">
+        <nav class="nav">
+          <div class="nav__logo">
+            <img src="../images/agency7.png" alt="image logo" />
+          </div>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="../../home.html" class="nav__link">Home</a>
+              </li>
+  
+              <li class="nav__item">
+                <a href="../product/product.html" class="nav__link active">Product</a>
+              </li>
+  
+              <li class="nav__item">
+                <a href="../about/about.html" class="nav__link">About</a>
+              </li>
+  
+              <li class="nav__item">
+                <a href="#" class="nav__link">Blog</a>
+              </li>
+  
+              <li class="nav__item">
+                <a href="contact.html" class="nav__link">Contact</a>
+              </li>
+  
+              <div class="top_bar_right_wrapper">
+                <a href="#"
+                  ><iconify-icon icon="system-uicons:user-male"></iconify-icon
+                ></a>
+                <a href="#"
+                  ><iconify-icon icon="ph:handbag"></iconify-icon> $0.00
+                </a>
+                <a href="#">
+                  <iconify-icon icon="carbon:search"></iconify-icon>
+                </a>
+              </div>
+            </ul>
+  
+            <div class="nav__close" id="nav-close">
+              <iconify-icon icon="material-symbols:close"></iconify-icon>
+            </div>
+          </div>
+  
+          <!-- Toggle Button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <iconify-icon icon="ic:baseline-menu"></iconify-icon>
+          </div>
+        </nav>
+      </header>
+  
+     <!-- end of header -->
     <div class="title">
         <div>
             <h1 class="title__h1"><span class="underline">
@@ -198,4 +250,6 @@
 
 </body>
 <script src="javaScript/contact.js"></script>
+<script src="../components/header/javascript/header.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </html>
