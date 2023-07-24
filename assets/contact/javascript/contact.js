@@ -16,26 +16,31 @@ function validateForm(event) {
     
     
     let errorMessage=document.querySelector(".contact_errorMessage");
-    if (x == "" || y=="" ||z=="") {
+     
         if(x==""){
             name__error.style.visibility="visible";
+        
         }else{
             name__error.style.visibility="hidden";
         }
         if(y==""){
             surname__error.style.visibility="visible";
+           
+
         }else{
             surname__error.style.visibility="hidden";
         }
         if(z==""){
             email__error.style.visibility="visible";
+           
+
         }else{
             email__error.style.visibility="hidden";
         }
+       
     //   alert("One or more fields have an error. Please check and try again.");
-    errorMessage.innerHTML="One or more fields have an error. Please check and try again.";
-      return false;
-    }else{
+    
+    if (x != "" && y!="" &&z!=""){
         errorMessage.innerHTML="";
         email__error.style.visibility="hidden";
         surname__error.style.visibility="hidden";
@@ -47,12 +52,19 @@ function validateForm(event) {
     {
         email__error.style.visibility="visible";
         // alert("Your email is not valid.Please check and try again.")
-        errorMessage.innerHTML="Your email is not valid.Please check and try again.";
-        return false;
+       
         
     }else{
         email__error.style.visibility="hidden";
         errorMessage.innerHTML="";
+    }
+    if(x=="" ||y==""||z==""||!(z.match(mailformat))){
+        if(x=="" ||y==""||z==""){
+            errorMessage.innerHTML="One or more fields have an error. Please check and try again.";
+        }else{
+            errorMessage.innerHTML="Your email is not valid.Please check and try again.";
+        }
+        return false;
     }
     
   }

@@ -189,8 +189,7 @@ body .page input[type=submit],
 body .page textarea {
   font-size: 15px;
   height: 47px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
   border: 2px solid #3c8f69;
   border-radius: 7px;
   background: white;
@@ -204,7 +203,9 @@ body .page input[type=submit] {
   font-weight: 800;
   height: 58px;
   cursor: pointer;
-  border-color: #252525;
+  border: 3px solid #252525;
+  transition: color 2s;
+  transition: backgound-color 2s;
 }
 body .page input[type=submit]:hover {
   background-color: white;
@@ -231,6 +232,20 @@ body .page .form-body {
   background: #8CD18C;
   padding: 5px 10px;
   margin-top: 0;
+}
+body .page .contact_errorMessage {
+  text-align: center;
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  body .page .contact_errorMessage {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 960px) {
+  body .page .contact_errorMessage {
+    font-size: 16px;
+  }
 }
 @media only screen and (min-width: 768px) {
   body .page .row {
