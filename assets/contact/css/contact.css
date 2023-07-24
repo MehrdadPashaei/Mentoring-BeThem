@@ -1,8 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 ::selection {
   background-color: #3c8f69;
   color: white;
 }
 
+/*header*/
+/* Google Font */
+/* Basics */
+:root {
+  --header-height: 4rem;
+  /*========== Colors ==========*/
+  --title-color: #0f1a28;
+  --text-color: #252525;
+  --body-color: #fff;
+  --bg-color: #ffafaf;
+  --main-color: #3c8f69;
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0f1a28;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header & nav */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.header .nav {
+  height: 4.5rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.header .nav__toggle,
+.header .nav__close {
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+.header .nav__toggle {
+  color: #3c8f69;
+}
+
+.header .nav__close:hover {
+  color: #3c8f69;
+}
+
+.header .nav__close {
+  font-size: 1.8rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.7rem;
+  cursor: pointer;
+}
+
+.header .nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  row-gap: 2rem;
+  padding-top: 5rem;
+}
+
+.header .nav__link {
+  font-size: 13px;
+  text-align: initial;
+  font-weight: 600;
+  color: #0f1a28;
+}
+
+.active {
+  color: #3c8f69;
+}
+
+.scroll-header {
+  background-color: #fff;
+  height: 4rem;
+}
+
+.scroll-header .nav__logo-img {
+  width: 90%;
+}
+
+.scroll-header .active::after,
+.scroll-header .nav__link:hover::after {
+  bottom: -1.1rem;
+}
+
+/* Navigation for mobile & Tablet devices */
+@media screen and (max-width: 1240px) {
+  .nav {
+    background: transparent;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    background-color: #fff;
+    height: 100%;
+    padding: 4.5rem 0 0 3rem;
+    transition: right 0.4s;
+    text-align: initial;
+  }
+  /* show menu  */
+  .show-menu {
+    right: 0 !important;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .nav {
+    height: 4.5rem !important;
+    background: transparent !important;
+    padding-top: 10px;
+    z-index: 999;
+    transition: 0.3s;
+  }
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+  .nav__list {
+    flex-direction: row !important;
+    padding: 0 !important;
+    column-gap: 1.75rem !important;
+    background: transparent !important;
+    transition: 0.3s !important;
+  }
+  .nav__item {
+    padding: 0 5px;
+    position: relative;
+  }
+  .active,
+  .nav__link {
+    font-size: 1rem !important;
+    line-height: 5%;
+  }
+  .active::after,
+  .nav__link:hover::after {
+    position: absolute;
+    content: "";
+    width: 160%;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    height: 4px;
+    bottom: -0.95rem;
+    left: -25%;
+    right: 0;
+    background: #3c8f69;
+  }
+  .nav__menu {
+    padding: 0;
+    margin: 0;
+  }
+  .top_bar_right_wrapper a {
+    margin: 0 5px;
+  }
+}
+/*end of heading*/
 html {
   font-size: 62.5%;
 }
