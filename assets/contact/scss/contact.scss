@@ -565,60 +565,7 @@ body{
     }
 }
 
-// @media screen and (min-width: 768px) {
-//     .contact__form {
-//       display: grid;
-//       grid-gap:0px;
-//       grid-template-columns: repeat(4, 1fr); /* creates four equal columns */
-//       grid-template-rows: repeat(5, 1fr); /* creates three equal rows */
-//       margin: 0;
-//       padding:0;
-//       .inputdiv{
-//         background-color: burlywood;
-//         margin: 0;
-//         padding: 0;
 
-//       }
-//       grid-template-areas:
-//         "namee namee surname surname"
-//         "email email email phone"
-//         "subject subject subject subject"
-//         "message message message message"
-//         "button button button button";
-       
-
-//     }
-  
-//     .name {
-//       grid-area: namee;
-//     }
-  
-//     .surname {
-//       grid-area: surname;
-//     }
-  
-//     .email {
-//       grid-area: email;
-//       background-color: blueviolet;
-//     }
-  
-//     .phone {
-//       grid-area: phone;
-//     }
-  
-//     .subject {
-//         background-color: chartreuse;
-//       grid-area: subject;
-//     }
-//     .message{
-//         grid-area: message;
-//     }
-//     .button{
-//         grid-area: button;
-//     }
-//   }
-
-/* -------------------- Footer ---------------------- */
 
 .footer a{
     text-decoration: none;

@@ -7,6 +7,9 @@
     text-align: center;
     margin: 0;
     padding: 0;
+  
+}
+html{
     color: #FFFDF6;
 }
 .none{
@@ -14,6 +17,9 @@
     border-radius: 50%;
     width: 10px;
     height: 10px;
+}
+.pricing-column_none-background .none{
+    background-color: #BFABA8;
 }
 .pricing-column{
     width: 80%;
@@ -136,6 +142,10 @@ li{
     margin: auto;
     
 }
+.pricing-column_none-background li{
+    border-bottom-color: #BFABA8;
+}
+
 .tail-of-pricing-column{
 padding: 20px 0 40px 0;
 }
@@ -171,4 +181,18 @@ a:hover{
         width: 155px;
         height: 58px;
     }
+}
+.pricing-column_none-background{
+    background-color: #FAFAFA;
+    color: #252525;
+}
+.pricing-column_none-background p{
+    color: #BFABA8;
+}
+.pricing-column_none-background a{
+    color:#FFFDF6;
+    background-color: #252525;
+}
+.pricing-column_none-background .pricing-column__button{
+    color: #FAFAFA;
 }
