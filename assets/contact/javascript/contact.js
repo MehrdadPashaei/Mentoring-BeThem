@@ -37,6 +37,9 @@ function validateForm(event) {
       return false;
     }else{
         errorMessage.innerHTML="";
+        email__error.style.visibility="hidden";
+        surname__error.style.visibility="hidden";
+        name__error.style.visibility="hidden";
     }
     
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -51,7 +54,7 @@ function validateForm(event) {
         email__error.style.visibility="hidden";
         errorMessage.innerHTML="";
     }
-    event.preventDefault();
+    
   }
 
   

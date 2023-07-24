@@ -225,7 +225,7 @@ body .page .name-error {
   visibility: hidden;
 }
 body .page .iniputi {
-  position: absolute;
+  display: inline-block;
 }
 body .page .form-body {
   background: #8CD18C;

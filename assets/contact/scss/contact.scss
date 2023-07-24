@@ -216,7 +216,8 @@ body{
             }
            
             .iniputi{
-                position:absolute;}
+                display: inline-block;
+           }
             .form-body {
                 background:$contact-backgound-color;
                 padding:5px 10px;
